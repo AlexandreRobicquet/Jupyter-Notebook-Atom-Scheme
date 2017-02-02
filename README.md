@@ -1,4 +1,4 @@
-# Jupyter-Notebook-Dark
+# Jupyter-Notebook Atom Scheme like
 
 This is a completely dark theme for the Jupyter Notebook interface. 
 
