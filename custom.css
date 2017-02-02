@@ -1,26 +1,18 @@
 /*
   Dark theme for Jupyter Notebook/iPython 4
-  Author: Theodore Pak
-  Repo at: https://github.com/powerpak/jupyter-dark-theme
+  Author: Alexandre Robicquet
   Inspired by and adapted from the following:
   Base16 for iPython Notebook (https://github.com/nsonnad/base16-ipython-notebook)
   Base16 Twilight Dark, David Hart (http://hart-dev.com)
   CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
   CodeMirror template by Jan T. Scott (https://github.com/idleberg/base16-chrome-devtools)
   Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+  Theodore Pak code (https://github.com/powerpak/jupyter-dark-theme)
 */
 
 body, body.notebook_app.command_mode {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-/* 
-  SET THE CODE/MONOSPACE FONT 
-  I prefer Bitsream Vera Sans Mono, which is freely downloadable here:
-  http://www.dafont.com/bitstream-vera-mono.font
-  However, there are plenty of alternatives at http://programmingfonts.org/
-  in which case, add your preferred font to the stack below.
-*/
 
 .CodeMirror pre, .CodeMirror-dialog, .CodeMirror-dialog .CodeMirror-search-field, .terminal-app .terminal {
     font-family: "Bitstream Vera Sans Mono", Monaco, monospace;
@@ -61,7 +53,7 @@ body[data-notebook-path] #header, .terminal-app #header { display: none !importa
   background-color: #333;
   border-color: #222 #222 #555 #222;
 }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
   color: #979797;
   background-color: #444;
   border-top-color: #444;
@@ -96,7 +88,7 @@ body[data-notebook-path] #header, .terminal-app #header { display: none !importa
   color: #fff;
   background-color: #444;
 }
-.dropdown-menu > li > a:hover:after, .dropdown-menu > li > a:focus:after, 
+.dropdown-menu > li > a:hover:after, .dropdown-menu > li > a:focus:after,
 .dropdown-menu > li > a:active:after {
   color: #fff;
 }
@@ -115,7 +107,7 @@ div#maintoolbar { display: none !important; }
 */
 
 body.notebook_app > #header { display: block !important; }
-.notebook_app > #header, .edit_app > #header { 
+.notebook_app > #header, .edit_app > #header {
   background-color: #333;
   color: #b7b7b7;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -139,7 +131,7 @@ span.save_widget span.filename:hover {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #fff;
   background-color: #444;
@@ -214,14 +206,14 @@ span.save_widget span.filename:hover {
   color: #999;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
 }
-.btn-default.disabled:focus, .btn-default.disabled:hover, 
+.btn-default.disabled:focus, .btn-default.disabled:hover,
 .btn-default[disabled]:focus, .btn-default[disabled]:hover {
   background-color: #555;
   border-color: #222;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   color: #aaa;
 }
-.btn-default:active:hover, .btn-default:active:focus, 
+.btn-default:active:hover, .btn-default:active:focus,
 .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default:focus {
   background-color: #474747;
   color: #999;
@@ -298,7 +290,7 @@ div.output_html { font-family: sans-serif; }
 */
 
 @media not print {
-  .notebook_app div.cell.running .input .input_area { 
+  .notebook_app div.cell.running .input .input_area {
     border-left-color: #82591E;
     -webkit-animation-name: pulseBorder;
     -webkit-animation-duration: 1s;
@@ -310,7 +302,7 @@ div.output_html { font-family: sans-serif; }
     from { border-left-color: #82591E; }
     to { border-left-color: #eea236; }
   }
-  
+
   .notebook_app div.input_prompt {color: #9b703f;}
   .notebook_app div.output_prompt {color: #9b859d;}
   .notebook_app div.input_area {
@@ -358,7 +350,7 @@ span.ansiyellow {color: #f9ee98;}
 div.CodeMirror-selected {background: rgba(221, 240, 255, 0.19) !important;}
 #texteditor-backdrop #texteditor-container .CodeMirror-gutter, .CodeMirror-gutters {background: #444; border-right: 0px; color: #777;}
 .CodeMirror-linenumber {color: #b4b7b4;}
-.CodeMirror-cursor {border-left: 1px solid #A7A7A7 !important; margin-top: -2px; min-height: 18px;} 
+.CodeMirror-cursor {border-left: 1px solid #A7A7A7 !important; margin-top: -2px; min-height: 18px;}
 
 .CodeMirror span.cm-comment {color: #5F5A60; font-style: italic;}
 .CodeMirror span.cm-atom {color: #CF6A4C;}
@@ -389,4 +381,4 @@ div.CodeMirror-selected {background: rgba(221, 240, 255, 0.19) !important;}
 
 .cm-s-default span.cm-header {color: #CF4A4C;}
 .cm-s-default span.cm-variable-2 {color: #7587A6;}
-.cm-s-default span.cm-comment {color: #1F8585;}
+.cm-s-default span.cm-comment {color: #7F7A80;}
