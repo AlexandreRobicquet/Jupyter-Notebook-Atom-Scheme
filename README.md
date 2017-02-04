@@ -14,7 +14,7 @@ To install this theme, copy or symlink custom.css into ~/.jupyter/custom/
 cd ~/.jupyter/custom/ 
 ```
 
-(create that directory if it doesn't exist.) 
+(create that directory if it doesn't exist: mkdir ) 
 
 ```unix
 vi custom.css
