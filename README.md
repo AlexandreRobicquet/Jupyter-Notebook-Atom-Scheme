@@ -26,4 +26,4 @@ Then, whenever you run jupyter notebook, iruby notebook, etc. it will use this t
 
 most of the coloring information can be modified after line 300.
 
-For more information on color code please click [here]{http://html-color-codes.info/}
+For more information on color code please click [here](http://html-color-codes.info/)
