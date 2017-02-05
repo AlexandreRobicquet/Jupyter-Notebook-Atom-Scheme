@@ -22,3 +22,9 @@ vi custom.css
 
 Then, whenever you run jupyter notebook, iruby notebook, etc. it will use this theme.
 
+## Tips
+
+most of the coloring information can be modified after line 300.
+
+
+
